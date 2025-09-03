@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
     ScrollSmoother.create({
-        smooth: 1,
+        wrapper: '#smooth-wrapper',
+        content: "#smooth-content",
+        smooth: 1.2,
         effects: true
     })
 });
@@ -23,7 +25,7 @@ gsap.from(container, {
         trigger: container,
         start: '30% bottom',
         end: 'top 50%',
-        scrub: 1,
+        scrub: 1
     }
 })
 
@@ -37,7 +39,7 @@ gsap.from('.skill_ball', {
         trigger: '.software_skills',
         start: '20% bottom',
         end: '30% center',
-        scrub: 1,
+        scrub: 1
     }
 })
 
@@ -50,7 +52,7 @@ gsap.from('.software_skills', {
         trigger: '.software_skills',
         start: '20% bottom',
         end: '40% center',
-        scrub: 1,
+        scrub: 1
     }
 })
 
@@ -66,3 +68,10 @@ gsap.from(['.soft_skill-card', '.midd'], {
         scrub: 1
     }
 })
+
+gsap.from('.bg-animation', {
+    opacity: 0,
+    duration: 10,
+    ease: "power3.out"
+})
+
