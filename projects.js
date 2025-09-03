@@ -2,7 +2,7 @@ export const projects = [
     {
         name: 'Manejo Administrativo de Cine FullStack',
         brand: 'Campuslands',
-        description: 'Autorización y autenticación de sistema funcional de cine, El cual permite a través de el rol correcto gestionar peliculas, funciones, salas y sucursales de cine almacenados en base de datos gestionada con MongoDB. Incluye Verificación de solapamiento, uso de data transfer objects, modelo vista controlador. El desarrollo del Frontend fue incluido con HTML puro con modelo single web application.',
+        description: 'Autorización y autenticación de sistema funcional de cine, el cual permite, a través del rol correcto, gestionar películas, funciones, salas y sucursales de cine almacenadas en una base de datos gestionada con MongoDB. Incluye verificación de solapamiento, uso de Data Transfer Objects y modelo vista-controlador. El desarrollo del frontend fue realizado con HTML puro bajo el modelo de Single Web Application.',
         tech: ['nodejs', 'expressjs', 'mongodb', 'css', "html", 'jwt', 'git'],
         repository: '',
         preview: 'images/acme_movies.png'
@@ -10,7 +10,7 @@ export const projects = [
     {
         name: 'Gestión de grupos de trabajo CLI',
         brand: 'Campuslands',
-        description: "Gestión y reporte de grupos de trabajo con implementación de usuarios y tareas asignables. Guardado y extraxión en base de datos gestionada con MongoDB. incluye modulo que permite al usuario generar un reporte sobre los grupos de trabajo y sus usuarios y tareas asignadas. Inquirer fue usado para simular una aplicación CLI usando patrón de diseño Factory method.",
+        description: "Gestión y reporte de grupos de trabajo con implementación de usuarios y tareas asignables. Guardado y extracción en base de datos gestionada con MongoDB. Incluye módulo que permite al usuario generar un reporte sobre los grupos de trabajo, sus usuarios y tareas asignadas. Inquirer fue usado para simular una aplicación CLI utilizando el patrón de diseño Factory Method.",
         tech: ["nodejs", 'mongodb', 'inquirer', 'bcrypt'],
         repository: 'https://github.com/sovm-Campuslands/Workspaces_Manager.git',
         preview: 'images/workspace_manager.png'

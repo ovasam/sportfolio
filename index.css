@@ -118,14 +118,15 @@ h2 {
 
 .about_me_text>p {
     background-color: linnear;
-    max-width: 70%;
-    font-size: 1.5rem;
+    max-width: 50%;
+    font-size: 1.7rem;
     background: var(--card-linear);
-    padding: 32px;
+    padding: 64px;
     border-radius: 8px;
     color: white;
     outline: 1px solid rgba(255, 255, 255, 0.253);
     backdrop-filter: blur(7px);
+    text-align: center;
 }
 
 .self_photo {
@@ -506,6 +507,7 @@ h2 {
     text-align: left;
     margin-right: 16px;
     text-shadow: 0px 1px 1px rgb(0, 0, 0);
+    max-width: 580px;
 }
 
 .foot {
@@ -519,6 +521,10 @@ h2 {
 .foot>p {
     color: rgba(255, 255, 255, 0.253);
 
+}
+
+.foot>a {
+    font-size: 1.3rem;
 }
 
 
@@ -575,6 +581,7 @@ h2 {
 
     .about_me_text>p {
         font-size: 1rem;
+        max-width: 90%;
     }
 
     .self_photo>.photo {
