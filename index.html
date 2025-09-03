@@ -12,7 +12,7 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="background.config.css">
+    <!-- <link rel="stylesheet" href="background.config.css"> -->
 
 
 
@@ -59,12 +59,11 @@
             </hr>
         </div>
     </template>
-    <div class="bg-animation">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        <div id="stars4"></div>
-    </div>
+
+
+    <canvas id="starfield"></canvas>
+
+
     <div id="smooth-wrapper">
         <div id="smooth-content">
 
@@ -203,8 +202,9 @@
     </div>
     <div class="hover-image"></div>
 
+    <script src="index.js" type="module"></script>
+    <script src="animations.js" type="module"></script>
+    <script src="./canvas.js" type="module"></script>
 </body>
-<script src="index.js" type="module"></script>
-<script src="animations.js" type="module"></script>
 
 </html>
